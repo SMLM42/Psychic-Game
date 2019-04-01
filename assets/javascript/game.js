@@ -34,8 +34,8 @@ document.onkeydown = function (event) {
             wins++;
             guessesLeft = 15;
             guessesList = [];
-            generateLetter();
-            alert("Player Wins!");
+
+            alert("Correct! " + "I was thinking of: " + computerGuess); generateLetter();
         }
 
 
